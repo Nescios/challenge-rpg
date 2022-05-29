@@ -12,4 +12,9 @@ function getDicePlaceholderHtml(diceCount) {
   `<div class="placeholder-dice"></div>`).join('')
 }
 
-export {getDiceRollArray, getRandomItemInArray, getDicePlaceholderHtml}
+function getHeroPlaceholderHtml(hero) {
+  return new Array(hero.length).fill(0).map((el) =>
+    `<button>${el}</button>`).join('')
+}
+
+export {getDiceRollArray, getRandomItemInArray, getDicePlaceholderHtml, getHeroPlaceholderHtml}
