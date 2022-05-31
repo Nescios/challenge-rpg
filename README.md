@@ -1,4 +1,4 @@
-# Challenge: RPG
+#  Challenge: RPG
 
 ## ☀️ About The Project
 
@@ -14,6 +14,7 @@ I want to add some Characters (heroes and monsters) and some items to the game. 
 - CSS
 - JavaScript
   - Use classes to create objects
+- Use Git and [git-lfs](https://git-lfs.github.com/)
 - [Render](https://render.com/docs) - 🚀 For deployment
 
 ## 📖 Resource
